@@ -6,7 +6,7 @@
     using System.Text;
     using System.Threading.Tasks;
 
-    internal abstract class BlackQueen : Queen
+    internal class BlackQueen : Queen
     {
     }
 }

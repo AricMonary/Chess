@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Chess.Pieces
+﻿namespace Chess.Pieces
 {
+    using System.Collections.Generic;
+
     internal abstract class Piece
     {
         public Location currentLocation;

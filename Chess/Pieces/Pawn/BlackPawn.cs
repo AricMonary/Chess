@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Chess.Pieces.Pawn
+﻿namespace Chess.Pieces
 {
-    class BlackPawn
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using System.Threading.Tasks;
+
+    class BlackPawn : Pawn
     {
+
     }
 }

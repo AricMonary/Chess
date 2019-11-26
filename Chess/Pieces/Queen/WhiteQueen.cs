@@ -1,4 +1,4 @@
-﻿namespace Chess.Pieces.Queen
+﻿namespace Chess.Pieces
 {
     using System;
     using System.Collections.Generic;

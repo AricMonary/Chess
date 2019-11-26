@@ -47,26 +47,37 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Board\ChessBoard.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="ChessForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ChessForm.Designer.cs">
+      <DependentUpon>ChessForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Location.cs" />
-    <Compile Include="Pieces\Bishop.cs" />
-    <Compile Include="Pieces\BlackQueen.cs" />
-    <Compile Include="Pieces\King.cs" />
-    <Compile Include="Pieces\Knight.cs" />
-    <Compile Include="Pieces\Pawn.cs" />
+    <Compile Include="Pieces\Bishop\Bishop.cs" />
+    <Compile Include="Pieces\Bishop\BlackBishop.cs" />
+    <Compile Include="Pieces\Bishop\WhiteBishop.cs" />
+    <Compile Include="Pieces\King\BlackKing.cs" />
+    <Compile Include="Pieces\King\WhiteKing.cs" />
+    <Compile Include="Pieces\Knight\BlackKnight.cs" />
+    <Compile Include="Pieces\Knight\WhiteKnight.cs" />
+    <Compile Include="Pieces\Pawn\BlackPawn.cs" />
+    <Compile Include="Pieces\Pawn\WhitePawn.cs" />
+    <Compile Include="Pieces\Queen\BlackQueen.cs" />
+    <Compile Include="Pieces\King\King.cs" />
+    <Compile Include="Pieces\Knight\Knight.cs" />
+    <Compile Include="Pieces\Pawn\Pawn.cs" />
     <Compile Include="Pieces\Piece.cs" />
-    <Compile Include="Pieces\Queen.cs" />
-    <Compile Include="Pieces\Rook.cs" />
+    <Compile Include="Pieces\Queen\Queen.cs" />
+    <Compile Include="Pieces\Queen\WhiteQueen.cs" />
+    <Compile Include="Pieces\Rook\BlackRook.cs" />
+    <Compile Include="Pieces\Rook\Rook.cs" />
+    <Compile Include="Pieces\Rook\WhiteRook.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Board\Spot.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="ChessForm.resx">
+      <DependentUpon>ChessForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -95,11 +106,6 @@
     <Analyzer Include="packages\StyleCop.Analyzers.1.1.118\analyzers\dotnet\cs\StyleCop.Analyzers.CodeFixes.dll" />
     <Analyzer Include="packages\StyleCop.Analyzers.1.1.118\analyzers\dotnet\cs\StyleCop.Analyzers.dll" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Pieces\Bishop\" />
-    <Folder Include="Pieces\King\" />
-    <Folder Include="Pieces\Pawn\" />
-    <Folder Include="Pieces\Queen\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

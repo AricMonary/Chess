@@ -8,5 +8,14 @@
 
     internal abstract class Queen : Piece
     {
+        public override Location Move()
+        {
+            return null;
+        }
+
+        public override List<Location> ValidMoves()
+        {
+            return null;
+        }
     }
 }
