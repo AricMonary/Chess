@@ -7,7 +7,7 @@
     using System.Threading.Tasks;
     using Chess.Pieces;
 
-    class ChessBoard
+    internal class ChessBoard
     {
         private Spot[,] board;
 

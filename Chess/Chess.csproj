@@ -55,6 +55,7 @@
     </Compile>
     <Compile Include="Location.cs" />
     <Compile Include="Pieces\Bishop.cs" />
+    <Compile Include="Pieces\BlackQueen.cs" />
     <Compile Include="Pieces\King.cs" />
     <Compile Include="Pieces\Knight.cs" />
     <Compile Include="Pieces\Pawn.cs" />
@@ -93,6 +94,12 @@
   <ItemGroup>
     <Analyzer Include="packages\StyleCop.Analyzers.1.1.118\analyzers\dotnet\cs\StyleCop.Analyzers.CodeFixes.dll" />
     <Analyzer Include="packages\StyleCop.Analyzers.1.1.118\analyzers\dotnet\cs\StyleCop.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pieces\Bishop\" />
+    <Folder Include="Pieces\King\" />
+    <Folder Include="Pieces\Pawn\" />
+    <Folder Include="Pieces\Queen\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
